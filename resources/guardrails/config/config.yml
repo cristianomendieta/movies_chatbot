@@ -1,0 +1,8 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo-instruct
+  instructions:
+    - type: general
+      content: |
+          You are an AI assistant that helps people with information about movies .
